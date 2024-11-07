@@ -28,6 +28,7 @@ Please enter the commit message for your changes. Lines starting with '#' will b
 
 ### vim 
 - 기본 편집기로 git commit할 때 나타난다.<br>
+만약 코드를 쓴다면 git config --global core.editor "vim" 입니다.
 나오면 당황스럽습니다.
 
 1. 침착하게 i을 눌러 커밋할 내용을 적습니다.
@@ -50,6 +51,24 @@ Please enter the commit message for your changes. Lines starting with '#' will b
 
 추천 (R)ecover, (D)elete it
 무한반복 (비추천) (O)pen Read-Only, (Q)uit, (A)bort
+<br>
+<br>
+<br>
+
+### nano 
+- vim보다 터미널 간단한 택스트 편집기
+코드는 git config --global core.editor "nano" 입니다.
+단축키로 간단하고 직관적인 택스트 편집기이다.
+이 프로그램은 sudo (superuser do)로 설치하면 방해받을 가능성이 있습니다
+<br>
+
+#### 대표적인 6가지
+- Ctrl + O: 파일 저장
+- Ctrl + X: 파일 종료
+- Ctrl + K: 줄 삭제
+- Ctrl + U: 줄 붙여넣기
+- Ctrl + W: 문자열 검색
+
 
 
 
