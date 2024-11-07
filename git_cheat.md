@@ -59,7 +59,12 @@ Please enter the commit message for your changes. Lines starting with '#' will b
 - vim보다 터미널 간단한 택스트 편집기
 코드는 git config --global core.editor "nano" 입니다.
 단축키로 간단하고 직관적인 택스트 편집기이다.
-이 프로그램은 sudo (superuser do)로 설치하면 방해받을 가능성이 있습니다
+기본적으로 깔려 있지 않기 때문에 설치해줘야 한다.
+1. wsl --install
+- 설치 후  
+2. sudo apt update
+- sudo apt install nano
+- 이 프로그램은 sudo (superuser do)로 설치하면 방해받을 가능성이 있습니다
 <br>
 
 #### 대표적인 6가지
@@ -69,6 +74,12 @@ Please enter the commit message for your changes. Lines starting with '#' will b
 - Ctrl + U: 줄 붙여넣기
 - Ctrl + W: 문자열 검색
 
+### vs code
+애초에 git bash에서 커밋할 필요 없음
+vs code 안에 git이 내장되여 vs code로 
+코드 이름 git config --global core.editor "code --wait" 입니다.
+- #말고 다른 곳에 커밋 메세지 쓰고 저장 후 나가기 vs code 쓰는 사람들은 암
+  
 
 
 
