@@ -14,7 +14,14 @@
 - --global은 현재 사용자의 모든 저장소에 사용됨으로 한번 사용하고 모든 저장소에 저장된다.
 - --local일 경우 현재 저장소에서만 저장되여 다른 저장소에서 사용할떄 계속 설정변수를 넣어야 한다.
 
+  
 ## 설정변수와 저장값
+
+
+#### core
+##### git의 동작 방식을 제어하는 다양한 설정을 포함하고 있다.
+<br>
+
 ### core.editor 
 - commit할 때 메세지를 설정할 수 있다.<br> 
 - 기본적으로 Vim으로 설정되여 있다<br> 
@@ -49,7 +56,7 @@ Please enter the commit message for your changes. Lines starting with '#' will b
 - (Q)uit: Vim을 종료하고 아무 작업도 수행하지 않습니다.
 - (A)bort: Vim을 종료하고 실행을 중지합니다.
 
-추천 (R)ecover, (D)elete it
+추천 (R)ecover, (D)elete it <br>
 무한반복 (비추천) (O)pen Read-Only, (Q)uit, (A)bort
 <br>
 <br>
@@ -79,7 +86,21 @@ Please enter the commit message for your changes. Lines starting with '#' will b
 vs code 안에 git이 내장되여 vs code로 
 코드 이름 git config --global core.editor "code --wait" 입니다.
 - #말고 다른 곳에 커밋 메세지 쓰고 저장 후 나가기 vs code 쓰는 사람들은 암
-  
+<br>
+<br>
+<br>
+
+## code.autocrlf
+
+
+
+
+
+## -e, --edit
+전역 설정 파일 편집
+각 커밋 편집기마다 다르다.
+
+
 
 
 
