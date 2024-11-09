@@ -18,7 +18,38 @@
     세 번째 줄
     EOF
     - EOF의 이름을 바꿀 수 있다.
-### code는 그냥 넣어야 한다.
-만약 terminal에 적는다면 작용이 안된다.
-echo로 넣으면 한글자마다 NULL을 볼 수 있다.
+  ### code는 그냥 넣어야 한다.
+  만약 terminal에 적는다면 작용이 안된다.
+  echo로 넣으면 한글자마다 NULL을 볼 수 있다.
+  <br>
+<br>
+<br>
+
+## 스테이지 영역(Stage Area)
+파일의 커밋 준비전 임시 저장소
+커밋하기전 파일들을 같이 커밋할지 넣는 공간이다.
+<br>
+
+- git add . : 모든 변경 사항을 스테이지에 추가하기
+- git add 파일명 : 특정 파일을 스테이지에 추가하기
+<br>
+<br>
+
+  ex) git add example.txt
+- git add 파일명1 파일명2 : 여러 파일을 한꺼번에 스테이지에 추가하기
+  ex) git add example1.txt example2.txt
+- git add 디렉토리명/ : 디렉토리 전체를 스테이지에 추가하기
+  ex) git add src/
+- git add *.txt : 특정 확상자의 파일만 스테이지 추가하기 (와일드 카드 사용)
+- git add -u : 업데이트된 파일만 스테이지에 추가하기
+- git add -p : 선택적으로 일부 변경만 스테이지에 추가하기
+<br>
+<br>
+<br>
+
+## Git 저장소(Repository)
+ 프로젝트의 모든 파일과 그 파일의 변경 이력을 저장하고 관리하는 중앙 공간입니다
+ 
+
+
     
