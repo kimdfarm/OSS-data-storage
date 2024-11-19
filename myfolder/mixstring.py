@@ -3,7 +3,7 @@ from langdetect import detect
 import random
 from concurrent.futures import ThreadPoolExecutor
 
-
+# 이건 쓰지 마시오
 def mixString(sentence):
     # 번역할 문장
     lam = sentence.split(" ")
@@ -58,9 +58,22 @@ def mixStr(S):
 # 리스트 형식의 믹싱된 문자 추출
 def mixStList(S):
     translated_lankey, translated_value, source_languages = mixString(S)
-    return translated_value
+ 오
+def uni(words):
+    unicode_style = [ 'U '+ ' - '.join(str(ord(char)) for char in word) for word in words]
+    unistr = " ".join(unicode_style)
+    return unicode_style , unistr
 
-# 리스트의 어느 나라 언어인지 알림
-def mixStLan(S):
-    translated_lankey, translated_value, source_languages = mixString(S)
-    return translated_lankey
+def unicodestyle(words):
+    style, _ = uni(words)
+    return style
+
+def unicodestring(words):
+    _ , string = uni(words)
+    return string
+
+def xorstyleunicode(words):
+    xor_unicode = [
+    "UXOR " + str(ord(word[0]) ^ sum(ord(char) for char in word[1:])) if len(word) > 1 else "U" + str(ord(word[0]))
+    for word in words]
+    return xor_unicode
