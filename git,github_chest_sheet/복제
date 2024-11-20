@@ -9,6 +9,8 @@ git에서 저장소_URL을 넣을때 shift + insert을 눌러야 한다.
 - git clone <저장소_URL>
 ### 주요 옵션
 - git clone --branch 브랜치이름 <저장소_URL> : 특정 브랜치만 복제하고 싶을 때 사용합니다.
+- git clone --depth n <저장소_URL> : 히스토리 깊이를 제한하여 복제 속도를 높일 때 유용합니다.
+
 
 
 
